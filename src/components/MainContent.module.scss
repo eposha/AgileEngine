@@ -1,0 +1,30 @@
+.mainContent {
+  margin: 0 auto;
+  padding: 16px;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: auto;
+  width: 100%;
+  max-width: 1420px;
+  .imagesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 16px;
+    .imageItem {
+      margin: 8px;
+    }
+  }
+  .imagePopupWrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+  }
+}
